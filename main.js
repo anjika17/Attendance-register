@@ -22,10 +22,10 @@ document.getElementById("submit_button").style.display="none";
 document.getElementById("sort_button").style.display="inline-block";
 }
 function sorting(){
- name_of_the_student_array.sort();
+name_of_the_student_array.sort();
 console.log(name_of_the_student_array);
 var display_student_array_sorting=[];
-var length_of_name_of_the_student_array=[];
+var length_of_name_of_the_student_array=name_of_the_student_array.length;
 console.log(length_of_name_of_the_student_array);
 for(var b = 0; b < length_of_name_of_the_student_array; b++){
 display_student_array_sorting.push("<h4> Name - " + name_of_the_student_array[b] + "</h4>");
